@@ -59,6 +59,23 @@ nav ul {
 }
 
 
+/* Slide Section style */
+.slide-section {
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    margin: 0px 120px 100px;
+}
+.slide-section-content {
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid #C0CCDA;
+    border-bottom: 1px solid #C0CCDA;
+    padding: 30px;
+}
+
 
 /* Footer Section style */
 footer {

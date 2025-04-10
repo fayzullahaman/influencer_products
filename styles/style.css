@@ -5,15 +5,13 @@ body {
     max-width: 1440px;
 }
 
-button {
+.hero-btn {
     background-color: #E02C6D;
     border-radius: 20px;
     border: none;
     padding: 6px 15px;
     color: white;
 }
-
-section {}
 
 /* Header Section Style */
 .header {
@@ -138,6 +136,31 @@ nav ul {
 .card-content p {
     margin-top: 2px;
     color: #787885;
+}
+
+
+/* Featured section style */
+.featured {
+    margin: 100px 125px;
+}
+.featured-section {    
+    display: flex;
+    gap: 120px;
+    align-items: center;  
+}
+.feature-section-content h1 {
+    font-size: 40px;
+    margin: -15px 0px -5px;
+}
+.feature-section-content p {
+    color: #6C6C6C;
+    font-weight: 600;
+}
+.feature-btn {
+    padding: 8px 18px;
+    background-color: #E02C6D;
+    border: none;
+    color: white;
 }
 
 
